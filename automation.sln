@@ -5,13 +5,6 @@ VisualStudioVersion = 17.7.33711.374
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "automation", "automation.csproj", "{CEA32CAA-D841-4F41-A1EB-2C051EFDAA6E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pipelines", "Pipelines", "{99B65144-3679-4EC1-A700-54C5B07F0015}"
-	ProjectSection(SolutionItems) = preProject
-		..\salesforce\build-test-automation-pipeline.yml = ..\salesforce\build-test-automation-pipeline.yml
-		..\salesforce\run-test-automation-pipeline.yml = ..\salesforce\run-test-automation-pipeline.yml
-		..\salesforce\run-test-automation-release-pipeline.yml = ..\salesforce\run-test-automation-release-pipeline.yml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
